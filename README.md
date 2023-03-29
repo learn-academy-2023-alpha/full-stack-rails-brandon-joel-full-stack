@@ -1,24 +1,10 @@
-# README
+Branch: blog-index
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Acceptance Criteria
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Has a model for Blog with the following information: title and content
+Has a controller for Blog
+Has a controller action for index
+Has a route for index
+Has a view for index
+Can see all the blog post titles on the landing page of the application
